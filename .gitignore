@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Project runtime files
+*.db
+*.db-journal
+logs/*
+!logs/.gitkeep
+output/*
+!output/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Generated reports
+batch_ocr_report_*.json
+validate_report_*.json
+scan_result.json
+scan_*.json
+ocr_queue.json
+ocr_queue_*.json
+all_scan.json
+
+# Database
+ocr_history.db
+ocr_history.db-journal
+
+# Backup directories (contain large PDF source files)
+backup/
+backup_*/
+
+# Output directory (generated OCR files)
+output/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+{
+  "phase0": {
+    "threshold": 20,
+    "recursive": false
+  },
+  "phase1": {
+    "output_suffix": "",
+    "ocr_language": "中文",
+    "restart_interval": 10,
+    "single_timeout_seconds": 300,
+    "delay_between_files": 0.5
+  },
+  "phase2": {
+    "sample_rate": 0.05,
+    "min_sample": 10,
+    "validation_threshold": 20
+  }
+}

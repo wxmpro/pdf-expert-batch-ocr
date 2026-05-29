@@ -1,0 +1,19 @@
+{
+  "queue": [
+    {
+      "path": "/path/to/your/scanned_book.pdf",
+      "status": "need_ocr",
+      "pages": 150,
+      "char_count": 0,
+      "reason": "仅提取 0 个字符（阈值: 20），判定为扫描版"
+    },
+    {
+      "path": "/path/to/your/another_scan.pdf",
+      "status": "need_ocr",
+      "pages": 85,
+      "char_count": 5,
+      "reason": "仅提取 5 个字符（阈值: 20），判定为扫描版"
+    }
+  ],
+  "count": 2
+}
